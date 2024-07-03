@@ -1,0 +1,6 @@
+
+$margen: 200px;
+@mixin medidas($width, $height){
+	width: $width;
+	height: $height;
+}

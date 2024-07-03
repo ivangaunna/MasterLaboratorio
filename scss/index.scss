@@ -1,0 +1,54 @@
+
+main{
+    grid-area: main;  
+    .texto{
+        text-align: center;
+        color: rgb(46, 46, 46);
+    }
+    h1{
+        @extend .texto;
+        margin: 2rem;
+
+    }
+    h2{
+        @extend .texto;
+    }
+    h3{
+        @extend .texto;
+    }
+    .index-text{
+        @extend .texto;
+        margin: 1rem 3rem 1rem 3rem;
+        padding: 2rem;
+    }
+    .grid-index{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "video-index"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    .libromate{
+        padding: 2rem;
+    }
+    .libromate12{
+        padding: 10px;
+    }
+    .encuadrar{
+        border-radius: 5px;
+    }
+    .index-text{
+        background-color: seashell;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        font-size: 1rem;
+    
+    }
+    .cardsFinal{
+        padding-bottom: 7rem;
+    }
+    
+}

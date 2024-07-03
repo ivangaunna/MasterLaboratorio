@@ -1,0 +1,12 @@
+
+.encuadrar2{
+  @extend .encuadrar;
+  background-color: seashell;
+  margin: 2rem;
+  padding: 2rem;
+}
+@media screen and (max-width: 699px){
+	.videoMedida{
+	height: 15rem;
+}
+}

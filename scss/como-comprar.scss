@@ -1,0 +1,11 @@
+.toro{
+    padding-bottom: 5rem;
+}
+.imgCarrito{
+    width: 10rem;
+}
+    @media screen and (max-width: 600px){
+        .imgCarrito{
+            width: 5rem;
+        }  
+}

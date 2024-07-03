@@ -1,0 +1,73 @@
+
+//
+.cards-productos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+ }
+ .cards-mate{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    background-color: white;
+    border-radius: 30px;
+    width: 20rem;
+    margin: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+ }
+.cards-mate:hover {
+	border: 3px solid rgb(48, 49, 51);;
+}
+ .productos1{
+    padding-top: 1rem;
+ }
+ .carruPr{
+   margin-top: 3rem;
+ }
+h2{
+    font-size: 1.6rem;
+}
+h4{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 80%;
+}
+.carrito{
+    font-size: 1rem;
+    padding: .6rem;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+.titulo{
+    color: rgb(46, 46, 46);
+    text-align: center;
+    background-color: seashell;
+    width: 290px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.titulo:hover {
+	border: 2px solid lightgray;
+	color: blueviolet;
+}
+@media screen and (max-width: 400px){
+	.titulo{
+        color: rgb(46, 46, 46);
+        text-align: center;
+        background-color: seashell;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+//probar
+
